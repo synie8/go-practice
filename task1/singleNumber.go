@@ -1,9 +1,8 @@
-// package singleNumber
-package main
+package task1
 
 import "fmt"
 
-func singleNumber(nums []int) int {
+func SingleNumber(nums []int) int {
 	var a int
 	var mapRes = make(map[int]int)
 	for _, v := range nums {
@@ -14,6 +13,6 @@ func singleNumber(nums []int) int {
 			a = k
 		}
 	}
-	fmt.Println("map ****" , mapRes)
+	fmt.Println("map ****", mapRes)
 	return a
 }

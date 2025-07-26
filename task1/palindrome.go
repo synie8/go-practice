@@ -1,5 +1,4 @@
-//package palindrome
-package main
+package task1
 
 import (
 	"fmt"
@@ -7,7 +6,7 @@ import (
 	"strings"
 )
 
-func isPalindrome(x int) bool {
+func IsPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	} else if x >= 0 {
@@ -26,7 +25,7 @@ func isPalindrome(x int) bool {
 	return false
 }
 
-func isPalindrome2(x int) bool {
+func IsPalindrome2(x int) bool {
 	// 特殊情况：
 	// 如上所述，当 x < 0 时，x 不是回文数。
 	// 同样地，如果数字的最后一位是 0，为了使该数字为回文，

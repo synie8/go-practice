@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go-practice/task1"
+)
 
 func main() {
-	a := []int{4, 1, 2, 1, 2}
-	fmt.Println("第一种me ******", singleNumber(a))
+	num := []int{2, 2, 1, 4}
+	result := task1.SingleNumber(num)
+	fmt.Println("11111", result)
 }

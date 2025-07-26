@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LaunchGo",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${file}", //这个配置成你要调试的文件、${file}当前打开的文件
+            "env": {
+                "GOPATH": "D:/Program Files/Golang/GOPATH",
+                "GOROOT": "D:/Program Files/Go"
+            },
+            "args": [],
+        }
+    ]
+}
