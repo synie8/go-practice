@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	num := []int{2, 2, 1, 4}
-	result := task1.SingleNumber(num)
-	fmt.Println("11111", result)
+	digits := [][]int{[]int{2, 3}, []int{4, 5}, []int{6, 7}, []int{8, 9}, []int{1, 10}}
+	ok := task1.Merge(digits)
+	fmt.Println("****", ok)
 }
